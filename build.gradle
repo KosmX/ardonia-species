@@ -20,6 +20,12 @@ dependencies {
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
+	//ModCompile "io.github.prospector:modmenu:${project.modmenu_version}"
+	include "io.github.prospector:modmenu:${project.modmenu_version}"
+	modApi "me.sargunvohra.mcmods:autoconfig1u:${project.autoconfig_version}"
+	include "me.sargunvohra.mcmods:autoconfig1u:${project.autoconfig_version}"
+	modApi "me.shedaniel.cloth:config-2:${project.cloth_version}"
+	include "me.shedaniel.cloth:config-2:${project.cloth_version}"
 }
 
 processResources {
@@ -62,7 +68,7 @@ publishing {
 			artifact(jar) {
 				builtBy remapJar
 			}
-			artifact("${project.buildDir.absolutePath}/libs/${archivesBaseName}-${project.version}.jar"){
+			artifact("${project.buildDir.absolutePath}/libs/${archivesBaseName}-for-MC${project.minecraft_version}-${project.version}.jar"){
 				builtBy remapJar
 			}
 			artifact(sourcesJar) {

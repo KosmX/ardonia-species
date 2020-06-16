@@ -3,7 +3,7 @@
   "id": "ardonia-species",
   "version": "${version}",
   "name": "Ardonia species",
-  "description": "//TODO",
+  "description": "You can be something different not only human player, from Songs of War",
   "authors": [
     "KosmX"
   ],
@@ -14,10 +14,13 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.kosmx.ardonia.Main.Main"
+      "com.kosmx.ardonia.Main"
     ],
     "client": [],
-    "server": []
+    "server": [],
+    "modmenu": [
+      "com.kosmx.ardonia.Config.ConfigGui"
+    ]
   },
   "mixins": [
     "ardonia-species.mixins.json"

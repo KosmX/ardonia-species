@@ -1,6 +1,6 @@
 {
   "required": true,
-  "package": "com.kosmx.ardonia.Main.mixin",
+  "package": "com.kosmx.ardonia.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [],
   "client": [],
