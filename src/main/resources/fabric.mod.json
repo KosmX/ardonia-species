@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "ardonia-species",
+  "version": "${version}",
+  "name": "Ardonia species",
+  "description": "//TODO",
+  "authors": [
+    "KosmX"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/ardonia-species/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.kosmx.ardonia.Main.Main"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "ardonia-species.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.4.0",
+    "fabric": "*"
+  }
+}
