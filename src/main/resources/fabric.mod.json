@@ -19,7 +19,7 @@
     "client": [],
     "server": [],
     "modmenu": [
-      "com.kosmx.ardonia.Config.ConfigGui"
+      "com.kosmx.ardonia.config.ConfigGui"
     ]
   },
   "mixins": [

@@ -1,6 +1,6 @@
 package com.kosmx.ardonia;
 
-import com.kosmx.ardonia.Config.Config;
+import com.kosmx.ardonia.config.Config;
 import me.sargunvohra.mcmods.autoconfig1u.AutoConfig;
 import me.sargunvohra.mcmods.autoconfig1u.serializer.JanksonConfigSerializer;
 import net.fabricmc.api.ModInitializer;
